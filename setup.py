@@ -106,6 +106,9 @@ extras_require = {
     "woff": [
         "brotli >= 1.0.1; platform_python_implementation == 'CPython'",
         "brotlicffi >= 0.8.0; platform_python_implementation != 'CPython'",
+    ],
+    # for slower but better compression of WOFF 1.0 web fonts
+    "zopfli": [
         "zopfli >= 0.1.4",
     ],
     # for fontTools.unicode and fontTools.unicodedata: to use the latest version

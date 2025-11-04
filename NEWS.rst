@@ -1,4 +1,5 @@
 - [unicodedata] Update to Unicode 17. Require ``unicodedata2 >= 17.0.0`` when installed with 'unicode' extra.
+- Split the ``zopfli`` dependency from ``woff`` extra into a separate optional ``zopfli`` extra.
 
 4.60.1 (released 2025-09-29)
 ----------------------------
